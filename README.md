@@ -2,7 +2,7 @@
 
 A powerful, interactive web application for creating, manipulating, and exporting Smith Charts - an essential tool for RF, microwave engineering, and electrical engineering professionals and students.
 
-![Smith Chart](Website_ss.png)
+![Smith Chart](public/images/Website_ss.png)
 
 ## ✨ Features
 
