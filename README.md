@@ -1,34 +1,73 @@
-# Interactive Smith Chart Drawing Tool
+# 📊 Interactive Smith Chart Tool
 
-An interactive web-based Smith Chart drawing tool for electrical engineering students and professionals.
+A powerful, interactive web application for creating, manipulating, and exporting Smith Charts - an essential tool for RF, microwave engineering, and electrical engineering professionals and students.
 
-## Features
+![Smith Chart](public/images/Smith_chart.png)
 
-- Interactive Smith Chart visualization
-- Drawing tools: Line, Circle, Arc
-- Text annotation
-- Object selection and manipulation
-- Style customization (color, line width, line style)
-- Save as PNG or PDF
+## ✨ Features
 
-## Getting Started
+- **Interactive Smith Chart**: Fully interactive Smith chart with zoom and pan capabilities
+- **Professional Drawing Tools**: Create precise lines, circles, arcs, and text annotations
+- **Advanced Object Manipulation**: Select, move, rotate, and resize elements with ease
+- **Style Customization**: Personalize with colors, line widths, and line styles
+- **Export Options**: Save your work as high-quality PNG or PDF files
+- **Responsive Design**: Works on desktop and tablet devices
 
-1. Clone the repository
-2. Open `index.html` in your browser
+## 🚀 Quick Start
 
-## Usage
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- npm (included with Node.js)
 
-1. Select a drawing tool from the toolbar
-2. Click on the canvas to begin drawing
-3. Use the style controls to customize your drawings
-4. Save your work as an image or PDF
+### Installation
 
-## Technologies Used
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/SmithChartApp.git
 
-- HTML5 Canvas
-- Fabric.js for canvas manipulation
-- jsPDF for PDF export
+# Navigate to the project directory
+cd SmithChartApp
 
-## License
+# Install dependencies
+npm install
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+# Start the server
+npm start
+```
+
+Then visit `http://localhost:3000` in your browser.
+
+## 💻 Usage
+
+1. **Select a Drawing Tool** from the toolbar (Line, Circle, Arc, Text)
+2. **Create Elements** by clicking and dragging on the Smith Chart
+3. **Customize Appearance** using the style controls panel
+4. **Select and Modify** existing elements with the selection tool
+5. **Export Your Work** as a PNG image or PDF document
+
+## 🔧 Technologies
+
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Canvas Manipulation**: [Fabric.js](http://fabricjs.com/)
+- **PDF Export**: [jsPDF](https://github.com/parallax/jsPDF)
+- **Server**: Node.js with Express
+
+## 📚 For Educators
+
+This tool is perfect for classroom demonstrations and assignments related to:
+- Impedance matching
+- Transmission line theory
+- RF circuit design
+- Antenna design
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+Built with ❤️ for the electrical engineering community
