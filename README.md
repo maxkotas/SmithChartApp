@@ -13,6 +13,14 @@ A powerful, interactive web application for creating, manipulating, and exportin
 - **Export Options**: Save your work as high-quality PNG or PDF files
 - **Responsive Design**: Works on desktop and tablet devices
 
+## 📋 TODO
+
+- Add named points/markers with customizable labels
+- Optimize UI by making buttons smaller and more compact
+- Fix arc drawing issue when crossing 180 degrees
+- Implement better mobile support
+- Add ability to save and load designs
+
 ## 🚀 Quick Start
 
 ### Prerequisites
