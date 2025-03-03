@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smith Chart Drawing Tool for Students</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Fabric.js for canvas manipulation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.0/fabric.min.js"></script>
+    <!-- Add jsPDF for PDF export -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Interactive Smith Chart Drawing Tool</h1>
+        </header>
+
+        <div class="content">
+            <!-- Left sidebar for toolbar -->
+            <div class="toolbar-sidebar">
+                <div class="toolbar">
+                    <button id="select" class="tool-btn">Select</button>
+                    <button id="add-text" class="tool-btn">Add Text</button>
+                    <button id="draw-circle" class="tool-btn">Draw Circle</button>
+                    <button id="draw-arc" class="tool-btn">Draw Arc</button>
+                    <button id="draw-line" class="tool-btn">Draw Line</button>
+                    <button id="eraser" class="tool-btn">Eraser</button>
+                    <button id="clear-all" class="tool-btn">Clear All</button>
+                    <button id="save-png" class="tool-btn">Save as Image</button>
+                    <button id="save-pdf" class="tool-btn">Save as PDF</button>
+                    
+                    <div class="style-controls">
+                        <label for="stroke-width">Width:</label>
+                        <input type="range" id="stroke-width" min="1" max="20" value="2">
+                        
+                        <label for="stroke-color">Color:</label>
+                        <input type="color" id="stroke-color" value="#000000">
+
+                        <label for="line-style">Line Style:</label>
+                        <select id="line-style">
+                            <option value="solid">Solid</option>
+                            <option value="dashed">Dashed</option>
+                            <option value="dotted">Dotted</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="status-bar">
+                    <p id="status-message">Ready</p>
+                </div>
+            </div>
+            
+            <!-- Canvas area -->
+            <div class="canvas-container">
+                <canvas id="smith-canvas"></canvas>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Interactive Smith Chart Tool for RF Engineering Students</p>
+        </footer>
+    </div>
+    
+    <!-- Application scripts -->
+    <script src="js/smith-chart.js"></script>
+    <script src="js/drawing-tools.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
